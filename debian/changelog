@@ -1,3 +1,12 @@
+wget (1.21.2-2ubuntu1.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: mishandling of semicolons in userinfo
+    - debian/patches/CVE-2024-38428.patch: properly re-implement userinfo
+      parsing in src/url.c.
+    - CVE-2024-38428
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 19 Jun 2024 08:15:59 -0400
+
 wget (1.21.2-2ubuntu1) jammy; urgency=low
 
   * Merge from Debian unstable. Remaining changes:
