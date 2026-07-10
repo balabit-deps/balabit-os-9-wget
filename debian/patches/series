@@ -3,3 +3,7 @@ wget-doc-remove-usr-local-in-wget.texi
 wget-passive_ftp-default
 ssl_Removesupriousprintstatements_wget61125.patch
 CVE-2024-38428.patch
+CVE-2026-58469.patch
+CVE-2026-58470.patch
+CVE-2026-58471.patch
+CVE-2026-58472.patch

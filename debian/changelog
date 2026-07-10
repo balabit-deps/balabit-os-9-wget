@@ -1,3 +1,22 @@
+wget (1.21.2-2ubuntu1.3) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Buffer overflow in metalink.
+    - debian/patches/CVE-2026-58469.patch: Fix buffer overflow in
+      src/metalink.c
+    - CVE-2026-58469
+  * SECURITY UPDATE: Integer overflow in http
+    - debian/patches/CVE-2026-58470.patch: Fix integer overflow in src/http.c
+    - CVE-2026-58470
+  * SECURITY UPDATE: Buffer overflow in convert_fname.
+    - debian/patches/CVE-2026-58471.patch: Fix buffer overflow in src/url.c
+    - CVE-2026-58471
+  * SECURITY UPDATE: Integer and buffer overflow in html_quote_string.
+    - debian/patches/CVE-2026-58472.patch: Fix integer+buffer overflow in
+      src/convert.c
+    - CVE-2026-58472
+
+ -- Kyle Kernick <kyle.kernick@canonical.com>  Fri, 10 Jul 2026 16:04:53 -0600
+
 wget (1.21.2-2ubuntu1.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: mishandling of semicolons in userinfo
