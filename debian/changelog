@@ -1,3 +1,12 @@
+wget (1.21.2-2ubuntu1.4) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: SSRF forgery in FTP.
+    - debian/patches/CVE-2026-15146.patch: Validate PASV/LPSV response address
+      against control connection peer in src/ftp-basic.c
+    - CVE-2026-15146
+
+ -- Kyle Kernick <kyle.kernick@canonical.com>  Thu, 16 Jul 2026 10:38:47 -0600
+
 wget (1.21.2-2ubuntu1.3) jammy-security; urgency=medium
 
   * SECURITY UPDATE: Buffer overflow in metalink.
