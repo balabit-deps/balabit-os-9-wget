@@ -1,3 +1,11 @@
+wget (1.21.2-2ubuntu1.5) jammy-security; urgency=medium
+
+  * SECURITY REGRESSION: Incomplete fix for CVE-2026-58472 (LP: #2163754)
+    - debian/patches/CVE-2026-58472-post1.patch: Fix buffer overflow in
+      src/convert.c
+
+ -- Kyle Kernick <kyle.kernick@canonical.com>  Wed, 19 Aug 2026 18:01:10 -0600
+
 wget (1.21.2-2ubuntu1.4) jammy-security; urgency=medium
 
   * SECURITY UPDATE: SSRF forgery in FTP.
